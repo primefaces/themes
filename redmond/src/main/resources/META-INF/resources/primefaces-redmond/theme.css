@@ -252,3 +252,17 @@
 /* Overlays */
 .ui-widget-overlay { background: #aaaaaa url("#{resource['primefaces-redmond:images/ui-bg_flat_0_aaaaaa_40x100.png']}") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
 .ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url("#{resource['primefaces-redmond:images/ui-bg_flat_0_aaaaaa_40x100.png']}") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+
+/* PrimeFaces Extensions */
+.ui-inputfield {
+    background: #fff !important;
+    -moz-box-shadow: inset 0 2px 2px #c5dbec !important;
+    -webkit-box-shadow: inset 0 2px 2px #c5dbec !important;
+    box-shadow: inset 0 2px 2px #c5dbec !important;
+}
+
+.ui-inputfield.ui-state-focus {
+    -moz-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
+    -webkit-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
+    box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
+}
