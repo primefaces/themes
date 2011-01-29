@@ -245,3 +245,18 @@
 /* Overlays */
 .ui-widget-overlay { background: #eeeeee url("#{resource['primefaces-bluesky:images/ui-bg_diagonals-thick_90_eeeeee_40x40.png']}") 50% 50% repeat; opacity: .80;filter:Alpha(Opacity=80); }
 .ui-widget-shadow { margin: -7px 0 0 -7px; padding: 7px; background: #000000 url("#{resource['primefaces-bluesky:images/ui-bg_highlight-hard_70_000000_1x100.png']}") 50% top repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+
+/* PrimeFaces Extensions */
+.ui-inputfield {
+    background: #fff !important;
+    -moz-box-shadow: inset 0 2px 2px #bed6f8 !important;
+    -webkit-box-shadow: inset 0 2px 2px #bed6f8 !important;
+    box-shadow: inset 0 2px 2px #bed6f8 !important;
+    color: #000000 !important
+}
+
+.ui-inputfield.ui-state-focus {
+    -moz-box-shadow: 0px 0px 5px #bed6f8, inset 0 2px 2px #bed6f8 !important;
+    -webkit-box-shadow: 0px 0px 5px #bed6f8, inset 0 2px 2px #bed6f8 !important;
+    box-shadow: 0px 0px 5px #bed6f8, inset 0 2px 2px #bed6f8 !important;
+}
