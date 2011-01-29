@@ -40,7 +40,25 @@
 		<module>ui-darkness</module>
 		<module>ui-lightness</module>
 		<module>vader</module>
-		
 	</modules>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>1.0-alpha-6</version>
+            </extension>
+        </extensions>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>prime-repo</id>
+            <name>Prime Teknoloji maven repository</name>
+            <url>ftp://prime.com.tr/public_html/repository</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+    </distributionManagement>
 	
 </project>
