@@ -267,3 +267,27 @@
     -webkit-box-shadow: 0px 0px 5px #327e04, inset 0 2px 2px #327e04 !important;
     box-shadow: 0px 0px 5px #327e04, inset 0 2px 2px #327e04 !important;
 }
+
+.wijmo-wijmenu .ui-state-default a {
+    color: #312e25;
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-hover {
+    color: #ffffff;
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-active {
+    color: #459e00;
+}
+
+.wijmo-wijmenu .ui-state-default .ui-icon {
+    background-image: url("#{resource['primefaces-south-street:images/ui-icons_808080_256x240.png']}");
+}
+
+.wijmo-wijmenu .ui-state-hover .ui-icon {
+    background-image: url("#{resource['primefaces-south-street:images/ui-icons_ffffff_256x240.png']}");
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-active .ui-icon {
+    background-image: url("#{resource['primefaces-south-street:images/ui-icons_8dc262_256x240.png']}");
+}
