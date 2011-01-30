@@ -266,3 +266,11 @@
     -webkit-box-shadow: 0px 0px 5px #373740, inset 0 2px 2px #373740 !important;
     box-shadow: 0px 0px 5px #373740, inset 0 2px 2px #373740 !important;
 }
+
+.wijmo-wijmenu .ui-state-default a.ui-state-hover {
+    color: #8fddff;
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-active {
+    color: #8fddff;
+}
