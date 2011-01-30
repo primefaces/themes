@@ -276,6 +276,10 @@
     color: #ffffff;
 }
 
+.wijmo-wijmenu .ui-state-default a.ui-state-active {
+    color: #222222;
+}
+
 .wijmo-wijmenu .ui-state-default .ui-icon {
     background-image: url("#{resource['primefaces-black-tie:images/ui-icons_222222_256x240.png']}");
 }
@@ -284,13 +288,6 @@
     background-image: url("#{resource['primefaces-black-tie:images/ui-icons_ffffff_256x240.png']}");
 }
 
-.wijmo-wijmenu .ui-state-default a.ui-state-active {
-    border: 1px solid #000000;
-    background: #1c1c1c url("#{resource['primefaces-black-tie:images/ui-bg_glass_55_1c1c1c_1x400.png']}") 50% 50% repeat-x;
-    font-weight: normal;
-    color: #ffffff;
-}
-
 .wijmo-wijmenu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-black-tie:images/ui-icons_ffffff_256x240.png']}");
+    background-image: url("#{resource['primefaces-black-tie:images/ui-icons_222222_256x240.png']}");
 }
