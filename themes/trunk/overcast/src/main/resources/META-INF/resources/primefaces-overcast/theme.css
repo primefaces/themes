@@ -267,3 +267,28 @@
     -webkit-box-shadow: 0px 0px 5px #bbbbbb, inset 0 2px 2px #cccccc !important;
     box-shadow: 0px 0px 5px #bbbbbb, inset 0 2px 2px #cccccc !important;
 }
+
+.wijmo-wijmenu .ui-state-default a {
+    color: #333333;
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-hover {
+    color: #599fcf;
+}
+
+.wijmo-wijmenu .ui-state-default a.ui-state-active {
+    color: #ffffff;
+}
+
+.wijmo-wijmenu .ui-state-default .ui-icon {
+    background-image: url("#{resource['primefaces-overcast:images/ui-icons_454545_256x240.png']}");
+}
+
+.wijmo-wijmenu .ui-state-hover .ui-icon {
+    background-image: url("#{resource['primefaces-overcast:images/ui-icons_3383bb_256x240.png']}");
+}
+
+
+.wijmo-wijmenu .ui-state-default a.ui-state-active .ui-icon {
+    background-image: url("#{resource['primefaces-overcast:images/ui-icons_454545_256x240.png']}");
+}
