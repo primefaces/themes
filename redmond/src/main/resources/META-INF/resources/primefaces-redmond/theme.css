@@ -256,15 +256,15 @@
 /* PrimeFaces Extensions */
 .ui-inputfield {
     background: #fff !important;
-    -moz-box-shadow: inset 0 2px 2px #c5dbec !important;
-    -webkit-box-shadow: inset 0 2px 2px #c5dbec !important;
-    box-shadow: inset 0 2px 2px #c5dbec !important;
+    -moz-box-shadow: inset 0 2px 2px #79b7e7 !important;
+    -webkit-box-shadow: inset 0 2px 2px #79b7e7 !important;
+    box-shadow: inset 0 2px 2px #79b7e7 !important;
 }
 
 .ui-inputfield.ui-state-focus {
-    -moz-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
-    -webkit-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
-    box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #cbc7bd !important;
+    -moz-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #79b7e7 !important;
+    -webkit-box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #79b7e7 !important;
+    box-shadow: 0px 0px 5px #79b7e7, inset 0 2px 2px #79b7e7 !important;
 }
 
 .wijmo-wijmenu .ui-state-default a.ui-state-active{
