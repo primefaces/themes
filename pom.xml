@@ -51,6 +51,26 @@
                 <version>1.0-alpha-6</version>
             </extension>
         </extensions>
+
+        <plugins>
+            <plugin>
+                <groupId>org.primefaces</groupId>
+                <artifactId>maven-jsf-plugin</artifactId>
+                <version>1.1.8-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <theme>true</theme>
+                        </configuration>
+                        <id>css-compressor</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>compress-css</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 
     <distributionManagement>
