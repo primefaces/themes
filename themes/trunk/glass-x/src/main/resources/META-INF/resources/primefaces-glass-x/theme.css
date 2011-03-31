@@ -253,18 +253,18 @@
 .ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url("#{resource['primefaces-glass-x:images/ui-bg_flat_0_aaaaaa_40x100.png']}") 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
 
 /* PrimeFaces Extensions */
-.ui-inputfield {
-    background: #fff !important;
-    -moz-box-shadow: inset 0 2px 2px #acbece !important;
-    -webkit-box-shadow: inset 0 2px 2px #acbece !important;
-    box-shadow: inset 0 2px 2px #acbece !important;
-    color: #555555 !important;
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+    background: #ffffff;
+    -moz-box-shadow: inset 0 2px 2px #acbece;
+    -webkit-box-shadow: inset 0 2px 2px #acbece;
+    box-shadow: inset 0 2px 2px #acbece;
+    color: #555555;
 }
 
-.ui-inputfield.ui-state-focus {
-    -moz-box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece !important;
-    -webkit-box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece !important;
-    box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece !important;
+.ui-inputfield.ui-state-focus, .ui-widget-content .ui-inputfield.ui-state-focus, .ui-widget-header .ui-inputfield.ui-state-focus {
+    -moz-box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece;
+    -webkit-box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece;
+    box-shadow: 0px 0px 5px #acbece, inset 0 2px 2px #acbece;
 }
 
 .ui-tabs .ui-tabs-nav {
