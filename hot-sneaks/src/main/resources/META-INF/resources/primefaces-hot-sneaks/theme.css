@@ -254,17 +254,17 @@
 .ui-widget-shadow { margin: 8px 0 0 8px; padding: 10px; background: #ba9217 url("#{resource['primefaces-hot-sneaks:images/ui-bg_flat_75_ba9217_40x100.png']}") 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
 /* PrimeFaces Extensions */
-.ui-inputfield {
-    background: #fff !important;
-    -moz-box-shadow: inset 0 2px 2px #999999 !important;
-    -webkit-box-shadow: inset 0 2px 2px #999999 !important;
-    box-shadow: inset 0 2px 2px #999999 !important;
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+    background: #ffffff;
+    -moz-box-shadow: inset 0 2px 2px #999999;
+    -webkit-box-shadow: inset 0 2px 2px #999999;
+    box-shadow: inset 0 2px 2px #999999;
 }
 
-.ui-inputfield.ui-state-focus {
-    -moz-box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999 !important;
-    -webkit-box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999 !important;
-    box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999 !important;
+.ui-inputfield.ui-state-focus, .ui-widget-content .ui-inputfield.ui-state-focus, .ui-widget-header .ui-inputfield.ui-state-focus {
+    -moz-box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999;
+    -webkit-box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999;
+    box-shadow: 0px 0px 5px #999999, inset 0 2px 2px #999999;
 }
 
 .wijmo-wijmenu .ui-state-default a {
