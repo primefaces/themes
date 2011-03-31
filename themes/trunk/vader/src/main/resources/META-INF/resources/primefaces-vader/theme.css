@@ -259,6 +259,7 @@
     -moz-box-shadow: inset 0 2px 2px #cccccc;
     -webkit-box-shadow: inset 0 2px 2px #cccccc;
     box-shadow: inset 0 2px 2px #cccccc;
+    color: #000000;
 }
 
 .ui-inputfield.ui-state-focus, .ui-widget-content .ui-inputfield.ui-state-focus, .ui-widget-header .ui-inputfield.ui-state-focus {
