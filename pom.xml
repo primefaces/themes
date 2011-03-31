@@ -7,7 +7,7 @@
 	<groupId>org.primefaces.themes</groupId>
 	<artifactId>themes-project</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>primefaces themes</name>
 	
 	<modules>
