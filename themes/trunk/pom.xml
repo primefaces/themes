@@ -47,8 +47,8 @@
         <extensions>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>1.0-alpha-6</version>
+                <artifactId>wagon-ssh-external</artifactId>
+                <version>1.0</version>
             </extension>
         </extensions>
 
@@ -56,7 +56,7 @@
             <plugin>
                 <groupId>org.primefaces</groupId>
                 <artifactId>maven-jsf-plugin</artifactId>
-                <version>1.1.8</version>
+                <version>1.2</version>
                 <executions>
                     <execution>
                         <configuration>
@@ -74,12 +74,12 @@
     </build>
 
     <distributionManagement>
-        <repository>
-            <id>prime-repo</id>
-            <name>Prime Teknoloji maven repository</name>
-            <url>ftp://prime.com.tr/public_html/repository</url>
+   		<repository>
+			<id>prime-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>sftp://primefaces.org/var/www/repository</url>
             <uniqueVersion>false</uniqueVersion>
-        </repository>
+		</repository>
     </distributionManagement>
 	
 </project>
