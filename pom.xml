@@ -11,7 +11,6 @@
 	<name>primefaces themes</name>
 	
 	<modules>
-		<module>aristo</module>
 		<module>black-tie</module>
 		<module>blitzer</module>
 		<module>bluesky</module>
@@ -32,6 +31,7 @@
 		<module>pepper-grinder</module>
 		<module>redmond</module>
 		<module>rocket</module>
+        <module>sam</module>
 		<module>smoothness</module>
 		<module>south-street</module>
 		<module>start</module>
