@@ -289,3 +289,39 @@
 .ui-menu .ui-state-default a.ui-state-active .ui-icon {
     background-image: url("#{resource['primefaces-sam/images/ui-icons_454545_256x240.png']}");
 }
+
+.ui-menu .ui-menuitem a.ui-state-active {
+    border: 1px solid #aaaaaa;
+}
+
+.ui-menu .ui-menuitem a.ui-state-hover,
+.ui-menu .ui-menuitem a.ui-state-focus {
+    border: 1px solid #d3d3d3;
+}
+
+.ui-menu a.ui-state-active:link,
+.ui-menu a.ui-state-active:visited,
+.ui-menu a.ui-state-active:hover,
+.ui-menu a.ui-state-active:active {
+    color: #ffffff;
+}
+
+.ui-datatable .ui-datatable-odd {
+    background: none #edf5ff;
+}
+
+.ui-datatable tr.ui-state-hover {
+    background: none #b2d2ff;
+    border: 0 none;
+    color: #000000;
+}
+
+.ui-datatable tr.ui-state-highlight {
+    background: none #426fd9;
+    border: 0 none;
+    color: #ffffff;
+}
+
+button.ui-state-active .ui-button-text {
+    color: #ffffff;
+}
