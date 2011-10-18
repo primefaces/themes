@@ -299,27 +299,3 @@
     box-shadow: 0px 0px 5px #00a6dd, inset 0 2px 2px #404040;
     color: #304915;
 }
-
-.ui-menu .ui-state-default a {
-    color: #404040;
-}
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #fafafa;
-}
-
- .ui-menu .ui-state-default .ui-icon {
-    background-image: url("#{resource['primefaces-rocket:images/ui-icons_00a6dd_256x240.png']}")
-}
-
-.ui-menu .ui-state-hover .ui-icon {
-    background-image: url("#{resource['primefaces-rocket:images/ui-icons_fafafa_256x240.png']}");
-}
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #304915;
-}
-
-.ui-menu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-rocket:images/ui-icons_304915_256x240.png']}");
-}

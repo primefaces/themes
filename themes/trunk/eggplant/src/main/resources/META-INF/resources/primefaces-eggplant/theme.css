@@ -266,27 +266,3 @@
     -webkit-box-shadow: 0px 0px 5px #d1c5d8, inset 0 2px 2px #dcd9de;
     box-shadow: 0px 0px 5px #d1c5d8, inset 0 2px 2px #dcd9de;
 }
-
-.ui-menu .ui-state-default a {
-    color: #ffffff;
-}
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #734d99;
-}
-
-.ui-menu .ui-state-default .ui-icon {
-    background-image: url("#{resource['primefaces-eggplant:images/ui-icons_ffffff_256x240.png']}");
-}
-
-.ui-menu .ui-state-hover .ui-icon {
-    background-image: url("#{resource['primefaces-eggplant:images/ui-icons_734d99_256x240.png']}");
-}
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #ffffff;
-}
-
-.ui-menu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-eggplant:images/ui-icons_ffffff_256x240.png']}");
-}
