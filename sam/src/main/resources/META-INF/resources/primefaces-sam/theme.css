@@ -266,30 +266,6 @@
     border-color: #bfdaff;
 }
 
-.ui-menu .ui-state-default a {
-    color: #555555;
-}
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #212121;
-}
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #FFFFFF;
-}
-
-.ui-menu .ui-state-default .ui-icon {
-    background-image: url("#{resource['primefaces-sam/images/ui-icons_888888_256x240.png']}");
-}
-
-.ui-menu .ui-state-hover .ui-icon {
-    background-image: url("#{resource['primefaces-sam/images/ui-icons_454545_256x240.png']}");
-}
-
-.ui-menu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-sam/images/ui-icons_454545_256x240.png']}");
-}
-
 .ui-menu .ui-menuitem a.ui-state-active {
     border: 1px solid #aaaaaa;
 }

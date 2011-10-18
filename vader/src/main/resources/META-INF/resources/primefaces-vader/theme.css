@@ -267,27 +267,3 @@
     -webkit-box-shadow: 0px 0px 5px #dddddd, inset 0 2px 2px #cccccc;
     box-shadow: 0px 0px 5px #dddddd, inset 0 2px 2px #cccccc;
 }
-
-.ui-menu .ui-state-default a {
-    color: #eeeeee;
-}
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #000000;
-}
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #ffffff;
-}
-
-.ui-menu .ui-state-default .ui-icon {
-    background-image: url("#{resource['primefaces-vader:images/ui-icons_bbbbbb_256x240.png']}");
-}
-
-.ui-menu .ui-state-hover .ui-icon {
-    background-image: url("#{resource['primefaces-vader:images/ui-icons_c98000_256x240.png']}");
-}
-
-.ui-menu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-vader:images/ui-icons_f29a00_256x240.png']}");
-}

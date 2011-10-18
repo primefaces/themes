@@ -267,27 +267,3 @@
     -webkit-box-shadow: 0px 0px 5px #000000, inset 0 2px 2px #777777;
     box-shadow: 0px 0px 5px #000000, inset 0 2px 2px #777777;
 }
-
-.ui-menu .ui-state-default a {
-    color: #222222;
-}
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #ffffff;
-}
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #222222;
-}
-
-.ui-menu .ui-state-default .ui-icon {
-    background-image: url("#{resource['primefaces-black-tie:images/ui-icons_222222_256x240.png']}");
-}
-
-.ui-menu .ui-state-hover .ui-icon {
-    background-image: url("#{resource['primefaces-black-tie:images/ui-icons_ffffff_256x240.png']}");
-}
-
-.ui-menu .ui-state-default a.ui-state-active .ui-icon {
-    background-image: url("#{resource['primefaces-black-tie:images/ui-icons_222222_256x240.png']}");
-}

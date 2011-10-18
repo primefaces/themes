@@ -267,7 +267,3 @@
     -webkit-box-shadow: 0px 0px 5px #9c947c, inset 0 2px 2px #695444;
     box-shadow: 0px 0px 5px #9c947c, inset 0 2px 2px #695444;
 }
-
-.ui-menu .ui-state-default a.ui-state-active {
-    color: #e3ddc9;
-}

@@ -267,11 +267,3 @@
     -webkit-box-shadow: 0px 0px 5px #654b24, inset 0 2px 2px #cbc7bd;
     box-shadow: 0px 0px 5px #654b24, inset 0 2px 2px #cbc7bd;
 }
-
-.ui-menu .ui-state-default a.ui-state-hover {
-    color: #ffffff;
-}
-
-.ui-menu .ui-state-default a.ui-state-active{
-    color: #140f06;
-}
