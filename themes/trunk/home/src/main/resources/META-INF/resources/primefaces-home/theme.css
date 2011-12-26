@@ -267,3 +267,7 @@
     -webkit-box-shadow: 0px 0px 5px #000000, inset 0 2px 2px #777777;
     box-shadow: 0px 0px 5px #000000, inset 0 2px 2px #777777;
 }
+
+.ui-tree .ui-tree-nodes .ui-state-default .ui-icon {
+   background-image: url("#{resource['primefaces-home:images/ui-icons_222222_256x240.png']}");
+}
