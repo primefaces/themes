@@ -15,9 +15,9 @@
 
 /* Component containers
 ----------------------------------*/
-.ui-widget { font-family: Helvetica, Arial, sans-serif; font-size: 1.1em; }
+.ui-widget { font-family: Arial, sans-serif; font-size: 1.1em; }
 .ui-widget .ui-widget { font-size: 1em; }
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Helvetica, Arial, sans-serif; font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Arial, sans-serif; font-size: 1em; }
 .ui-widget-content { border: 1px solid #404040; background: #121212 url("#{resource['primefaces-vader:images/ui-bg_gloss-wave_16_121212_500x100.png']}") 50% top repeat-x; color: #eeeeee; }
 .ui-widget-content a { color: #eeeeee; }
 .ui-widget-header { border: 1px solid #404040; background: #888888 url("#{resource['primefaces-vader:images/ui-bg_highlight-hard_15_888888_1x100.png']}") 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
