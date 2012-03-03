@@ -7,7 +7,7 @@
 	<groupId>org.primefaces.themes</groupId>
 	<artifactId>themes-project</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.4</version>
 	<name>primefaces themes</name>
 	
 	<modules>
@@ -57,7 +57,7 @@
             <plugin>
                 <groupId>org.primefaces</groupId>
                 <artifactId>maven-jsf-plugin</artifactId>
-                <version>1.2.2</version>
+                <version>1.2.3</version>
                 <executions>
                     <execution>
                         <configuration>
