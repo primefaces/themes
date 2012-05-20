@@ -11,6 +11,9 @@
 	<name>primefaces themes</name>
 	
 	<modules>
+		<module>afterdark</module>
+        <module>afternoon</module>
+        <module>afterwork</module>
 		<module>black-tie</module>
 		<module>blitzer</module>
 		<module>bluesky</module>
