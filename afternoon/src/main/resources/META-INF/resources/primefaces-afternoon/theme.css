@@ -23,7 +23,7 @@
   background:-ms-radial-gradient(50% 75%,circle,#ffffff,#e6e6e6);
   background:radial-gradient(50% 75%,circle,#ffffff,#e6e6e6);
 }
-.ui-widget-content a, .ui-widget-header a { color:#333399; }
+.ui-widget-content a, .ui-widget-header a { color:#000000; }
 .ui-widget-header {
   background-color:#cceeff;
   background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#cceeff));
