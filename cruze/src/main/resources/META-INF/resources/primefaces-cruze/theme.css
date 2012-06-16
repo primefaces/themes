@@ -266,8 +266,8 @@
     border-color: #0099E0;
 }
 
-.ui-tabs .ui-tabs-nav,
-.ui-dialog .ui-dialog-titlebar {
+.ui-tabs .ui-tabs-nav.ui-widget-header,
+.ui-dialog .ui-dialog-titlebar.ui-widget-header {
     border-bottom: 2px solid #0099E0;
 }
 
