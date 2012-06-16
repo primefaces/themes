@@ -37,7 +37,6 @@
   outline:0;
   border:1px solid #3c443c;
   color:#eeffee;
-  text-shadow:0 -1px 2px rgba(0,0,0,0.5);
   font-weight:bold;
 }
 .ui-state-default, .ui-widget-content
@@ -55,7 +54,6 @@
   outline:0;
   border:1px solid #262626;
   color:#dddddd;
-  text-shadow:0 -1px 2px rgba(0,0,0,0.5);
   font-weight:bold;
 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
@@ -75,39 +73,29 @@
   outline:0;
   border:1px solid #3c443c;
   color:#eeffee;
-  text-shadow:0 -1px 2px rgba(0,0,0,0.5);
   font-weight:bold;
-}
-.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  -moz-box-shadow:0 0 8px #66cc00 ;
-  -webkit-box-shadow:0 0 8px #66cc00 ;
-  box-shadow:0 0 8px #66cc00 ;
 }
 .ui-state-hover a, .ui-state-hover a:hover {
   color:#eeffee;
   text-decoration:none;
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-  background-color:#66cc00;
-  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#86ff0d),color-stop(100%,#66cc00));
-  background:-webkit-linear-gradient(#86ff0d,#66cc00);
-  background:-moz-linear-gradient(#86ff0d,#66cc00);
-  background:-ms-linear-gradient(#86ff0d,#66cc00);
-  background:-o-linear-gradient(#86ff0d,#66cc00);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#86ff0d', endColorstr='#66cc00');
-  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#86ff0d', endColorstr='#66cc00');
-  background:linear-gradient(#86ff0d,#66cc00);
+  background-color:#8B798B;
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6A5C6A),color-stop(100%,#8B798B));
+  background:-webkit-linear-gradient(#6A5C6A,#8B798B);
+  background:-moz-linear-gradient(#6A5C6A,#8B798B);
+  background:-ms-linear-gradient(#6A5C6A,#8B798B);
+  background:-o-linear-gradient(#6A5C6A,#8B798B);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6A5C6A', endColorstr='#8B798B');
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6A5C6A', endColorstr='#8B798B');
+  background:linear-gradient(#6A5C6A,#8B798B);
   outline:0;
-  border:1px solid #264d00;
-  color:#000000;
-  text-shadow:0 1px 1px rgba(255,255,255,0.5);
+  border:1px solid #000000;
+  color:#DDDDDD;
   font-weight:bold;
-  -moz-box-shadow:0 0 8px #66cc00 ;
-  -webkit-box-shadow:0 0 8px #66cc00 ;
-  box-shadow:0 0 8px #66cc00 ;
 }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
-  color:#000000;
+  color:#DDDDDD;
   text-decoration:none;
 }
 .ui-widget :active { outline:none; }
@@ -124,7 +112,6 @@
   outline:0;
   border:1px solid #3c443c;
   color:#eeffee;
-  text-shadow:0 -1px 2px rgba(0,0,0,0.5);
   -moz-box-shadow:0 0 8px #66cc00 ;
   -webkit-box-shadow:0 0 8px #66cc00 ;
   box-shadow:0 0 8px #66cc00 ;
@@ -143,7 +130,6 @@
   outline:0;
   border:1px solid #862d2d;
   color:#ffffff;
-  text-shadow:0 -1px 2px rgba(0,0,0,0.5);
   font-weight:bold;
   border-width:2px;
   -moz-box-shadow:0 0 8px #862d2d ;
@@ -176,7 +162,7 @@
   -ms-transition:-ms-transform 200ms ease-in-out;
 }
 
-.ui-state-active .ui-icon { background-image:url("#{resource['primefaces-afterdark:images/ui-icons-dark.png']}"); }
+.ui-state-active .ui-icon { background-image:url("#{resource['primefaces-afterdark:images/ui-icons-light.png']}"); }
 
 .ui-icon-carat-1-n { background-position:0 0; }
 .ui-icon-carat-1-ne { background-position:-16px 0; }
@@ -433,11 +419,12 @@
 }
 
 .ui-inputfield.ui-state-hover, .ui-widget-content .ui-inputfield.ui-state-hover, .ui-widget-header .ui-inputfield.ui-state-hover {
-    border-color: #66cc00;
+    border-color: #778877;
 }
 
 .ui-inputfield.ui-state-focus, .ui-widget-content .ui-inputfield.ui-state-focus, .ui-widget-header .ui-inputfield.ui-state-focus {
-    -moz-box-shadow: 0px 0px 5px #66cc00, inset 0 2px 2px #8f8f8f;
-    -webkit-box-shadow: 0px 0px 5px #66cc00, inset 0 2px 2px #8f8f8f;
-    border-color:#66cc00;
+    -moz-box-shadow: 0px 0px 5px #8B798B, inset 0 2px 2px #8f8f8f;
+    -webkit-box-shadow: 0px 0px 5px #8B798B, inset 0 2px 2px #8f8f8f;
+    box-shadow: 0px 0px 5px #8B798B, inset 0 2px 2px #8f8f8f;
+    border-color:#8B798B;
 }
