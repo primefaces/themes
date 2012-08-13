@@ -55,7 +55,7 @@
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url("#{resource['primefaces-south-street:images/ui-icons_ffffff_256x240.png']}"); }
 .ui-state-active .ui-icon {background-image: url("#{resource['primefaces-south-street:images/ui-icons_8dc262_256x240.png']}"); }
 .ui-state-highlight .ui-icon {background-image: url("#{resource['primefaces-south-street:images/ui-icons_8dc262_256x240.png']}"); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url("#{resource['primefaces-south-street:images/images']}"); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url("#{resource['primefaces-south-street:images/ui-icons_cd0a0a_256x240.png']}"); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
