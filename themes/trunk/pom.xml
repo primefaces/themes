@@ -17,6 +17,7 @@
 		<module>black-tie</module>
 		<module>blitzer</module>
 		<module>bluesky</module>
+        <module>bootstrap</module>
 		<module>casablanca</module>
         <module>cruze</module>
 		<module>cupertino</module>
