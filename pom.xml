@@ -47,6 +47,7 @@
 		<module>ui-darkness</module>
 		<module>ui-lightness</module>
 		<module>vader</module>
+        <module>all-themes</module>
 	</modules>
 
     <build>
