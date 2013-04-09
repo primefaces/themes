@@ -23,7 +23,7 @@
 	border: 1px solid #d9d9d9;
 	color: #1b1d1f;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-		background: #f6f7f9 url(images/fallback_moduleHeader.png) 0 0 repeat-x;  /* Old browsers */
+		background: #f6f7f9 url("#{resource['primefaces-delta:images/fallback_moduleHeader.png']}") 0 0 repeat-x;  /* Old browsers */
 		background: -moz-linear-gradient(top, #f6f7f9 0%, #ebedf0 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f7f9), color-stop(100%,#ebedf0)); /* Chrome,Safari4+ */
 		background: -webkit-linear-gradient(top, #f6f7f9 0%,#ebedf0 100%); /* Chrome10+,Safari5.1+ */
@@ -58,14 +58,14 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png); }
-.ui-widget-content .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(images/ui-icons_888888_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_454545_256x240.png); }
-.ui-state-active .ui-icon {background-image: url(images/ui-icons_454545_256x240.png); }
-.ui-state-highlight .ui-icon {background-image: url(images/ui-icons_2e83ff_256x240.png); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_cd0a0a_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url("#{resource['primefaces-delta:images/ui-icons_222222_256x240.png']}"); }
+.ui-widget-content .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_222222_256x240.png']}"); }
+.ui-widget-header .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_222222_256x240.png']}"); }
+.ui-state-default .ui-icon { background-image: url("#{resource['primefaces-delta:images/ui-icons_888888_256x240.png']}"); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_454545_256x240.png']}"); }
+.ui-state-active .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_454545_256x240.png']}"); }
+.ui-state-highlight .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_2e83ff_256x240.png']}"); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url("#{resource['primefaces-delta:images/ui-icons_cd0a0a_256x240.png']}"); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
@@ -305,7 +305,7 @@
  *
  * http://docs.jquery.com/UI/Button#theming
  */
-.ui-button .ui-icon { background-image: url(images/ui-icons_ffffff_256x240.png); }
+.ui-button .ui-icon { background-image: url("#{resource['primefaces-delta:images/ui-icons_ffffff_256x240.png']}"); }
 /*
  * jQuery UI Dialog 1.8.16
  *
@@ -318,7 +318,7 @@
 .ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: visible; border: 0 none; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.75); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.75); box-shadow: 0 1px 4px rgba(0,0,0,0.75); }
 .ui-dialog .ui-dialog-titlebar { position: relative; background: transparent !important; padding: 0 0 8px 0; margin: 20px 20px 5px 20px; border: solid #e5e5e5; border-width: 0 0 1px 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
 .ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .1em 0; color: #353536; font-size: 20px !important; } 
-.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: -16px !important; top: -16px !important; margin: 0; width: 30px; height: 30px; background: url(images/modalClose.png) 0 0 no-repeat; border: 0 !important; z-index: 10000; padding: 0px !important;}
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: -16px !important; top: -16px !important; margin: 0; width: 30px; height: 30px; background: url("#{resource['primefaces-delta:images/modalClose.png']}") 0 0 no-repeat; border: 0 !important; z-index: 10000; padding: 0px !important;}
 .ui-dialog .ui-dialog-titlebar-close span { display: none !important; }
 .ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
 .ui-dialog .ui-dialog-content { position: relative; border: 0; padding: 15px 20px 20px 20px; background: none; overflow: auto; zoom: 1; }
@@ -337,7 +337,7 @@
  * http://docs.jquery.com/UI/Slider#theming
  */
 .ui-slider { position: relative; text-align: left; background: #838688; border: none; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset; box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset;}
-.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 17px !important; height: 21px  !important; cursor: default; background: url(images/slider_handles.png) 0 0 no-repeat; outline: none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: none; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 17px !important; height: 21px  !important; cursor: default; background: url("#{resource['primefaces-delta:images/slider_handles.png']}") 0 0 no-repeat; outline: none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: none; }
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background: #14a4ff; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset; -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset; box-shadow: 0 1px 3px rgba(0,0,0,0.6) inset; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .ui-slider .ui-slider-handle.ui-state-active { background-position: -17px 0; }
 
@@ -469,8 +469,8 @@ td.ui-datepicker-unselectable {
 .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
 .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
-.ui-datepicker .ui-icon-circle-triangle-w { background: url(images/icons_16.png) 0 -128px no-repeat !important; }
-.ui-datepicker .ui-icon-circle-triangle-e { background: url(images/icons_16.png) 0 -112px no-repeat !important; }
+.ui-datepicker .ui-icon-circle-triangle-w { background: url("#{resource['primefaces-delta:images/icons_16.png']}") 0 -128px no-repeat !important; }
+.ui-datepicker .ui-icon-circle-triangle-e { background: url("#{resource['primefaces-delta:images/icons_16.png']}") 0 -112px no-repeat !important; }
 .ui-datepicker-header .ui-state-hover { border: 0; background: none; }
 
 /* with multiple calendars */
