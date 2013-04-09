@@ -114,6 +114,12 @@
         </dependency>
         <dependency>
             <groupId>org.primefaces.themes</groupId>
+            <artifactId>delta</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces.themes</groupId>
             <artifactId>dot-luv</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>
