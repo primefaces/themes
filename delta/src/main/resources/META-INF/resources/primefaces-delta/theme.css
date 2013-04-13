@@ -361,19 +361,6 @@
  *
  * http://docs.jquery.com/UI/Tabs#theming
  */
-.ui-tabs { position: relative; zoom: 1; border: none; background: none; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
-.ui-tabs .ui-tabs-nav { margin: 0 0 -1px 0; background: none; border: 0; padding: 0px !important;}
-.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
-.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; font-size: 14px; font-weight: bold; }
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-.ui-tabs .ui-tabs-panel { border-width: 1px !important; padding: 1em 1.4em; background: #FFF; }
-.ui-tabs .ui-tabs-hide { display: none !important; }
-
-/* radius reset */
-.ui-tabs, .ui-tabs .ui-tabs-nav, .ui-tabs-panel { border-color: #e5e5e5; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
-.ui-tabs .ui-tabs-nav > li { -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
 
 .ui-datepicker {padding: 0px !important;} 
 .ui-datepicker .ui-datepicker-header { position: relative; padding:.4em 0; border: 1px solid #3b3e40; }
