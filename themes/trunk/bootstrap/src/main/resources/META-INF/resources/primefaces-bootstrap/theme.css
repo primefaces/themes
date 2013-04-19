@@ -426,6 +426,10 @@
     cursor: default;
 }
 
+.ui-tabs .ui-tabs-nav li .ui-icon {
+    margin: 0.6em 0.2em 0 0 !important;
+}
+
 .ui-tabs.ui-tabs-top .ui-tabs-nav.ui-widget-header {
     border-bottom: 1px solid #DDDDDD;
 }
