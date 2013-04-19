@@ -350,7 +350,7 @@
 
 /* PrimeFaces Extensions */
 .ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
-    cursor: default;
+    cursor: text;
     background: none #ffffff;
     border: 1px solid #cccccc;
     -webkit-border-radius: 3px;
